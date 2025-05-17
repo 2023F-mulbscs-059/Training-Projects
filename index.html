@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Appointment Forms</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="intro">
+    <h2>Fully Working HTML & CSS Form</h2>
+    <button class="get-code-btn" onclick="alert('You can download the RSVP code here!')">Get the Code</button>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" onclick="showTab('all', event)">All</button>
+    <button class="tab" onclick="showTab('contact', event)">Contact</button>
+    <button class="tab" onclick="showTab('file', event)">File Upload</button>
+    <button class="tab" onclick="showTab('chat', event)">Chatbox</button>
+    <button class="tab" onclick="showTab('rsvp', event)">RSVP</button>
+    <button class="tab" onclick="showTab('appointment', event)">Appointment</button>
+  </div>
+
+  <div class="container">
+    <!-- Contact Form -->
+    <div class="card active" data-type="contact all">
+      <h3>Contact Form</h3>
+      <label>Full Name</label>
+      <input type="text" placeholder="Enter Your First Name" />
+      <label>Email</label>
+      <input type="email" placeholder="2023f-mulbscs-000@mul.edu.pk" />
+      <label>Subject</label>
+      <input type="text" placeholder="Subject" />
+      <label>Message</label>
+      <textarea rows="4" placeholder="Write your message..."></textarea>
+      <button class="button">Submit</button>
+    </div>
+
+    <!-- File Upload -->
+    <div class="card active" data-type="file all">
+      <h3>File Upload</h3>
+      <label>Email</label>
+      <input type="email" placeholder="2023f-mulbscs-000@mul.edu.pk" />
+      <label>Upload File</label>
+      <div class="upload-box">Drop files here or click to browse</div>
+      <p>📄 banner.png ❌<br/>📦 design.zip ⏳</p>
+      <button class="button">Send File</button>
+    </div>
+
+    <!-- Chatbox -->
+    <div class="card active" data-type="chat all">
+      <h3>Chatbox</h3>
+      <label>Your Name</label>
+      <input type="text" placeholder="Enter Your Name" />
+      <label>Message</label>
+      <textarea rows="4" placeholder="Start the chat..."></textarea>
+      <button class="button">Send</button>
+    </div>
+
+    <!-- RSVP Form -->
+    <div class="card active" data-type="rsvp all">
+      <h3>RSVP</h3>
+      <label>First Name</label>
+      <input type="text" placeholder="Enter Your First Name" />
+      <label>Last Name</label>
+      <input type="text" placeholder="Enter Your Last Name" />
+      <label>Guests</label>
+      <input type="number" placeholder="Number of guests" />
+      <label>Date</label>
+      <input type="date" />
+      <label>Time</label>
+      <input type="time" />
+      <label>Attending?</label>
+      <div class="radio-group">
+        <label><input type="radio" name="rsvp" checked> Yes</label>
+        <label><input type="radio" name="rsvp"> No</label>
+      </div>
+      <button class="button">Submit</button>
+    </div>
+
+    <!-- Appointment -->
+    <div class="card active" data-type="appointment all">
+      <h3>Appointment Booking</h3>
+      <label>Full Name</label>
+      <input type="text" placeholder="Enter Full Name" />
+      <label>Email</label>
+      <input type="email" placeholder="Email" />
+      <label>Phone</label>
+      <input type="text" placeholder="Phone Number" />
+      <label>Date</label>
+      <input type="date" />
+      <label>Time</label>
+      <input type="time" />
+      <label>Reason</label>
+      <textarea rows="3" placeholder="Reason for appointment"></textarea>
+      <button class="button">Book Now</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
