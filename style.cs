@@ -1,4 +1,13 @@
-
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f0ff;
+  padding: 2rem;
+  color: #4b0082;
+}
 
 .intro {
   display: flex;
