@@ -1,5 +1,4 @@
-function showTab(tab, event) {
-  const
+
 function showTab(tab, event) {
   const cards = document.querySelectorAll('.card');
   const tabs = document.querySelectorAll('.tab');
