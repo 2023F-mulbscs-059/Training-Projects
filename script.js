@@ -1,5 +1,4 @@
- document.querySelectorAll
-document.querySelectorAll
+ 
 
 document.querySelectorAll ('.card');
   const tabs = document.querySelectorAll('.tab');
