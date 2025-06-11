@@ -1,4 +1,6 @@
-  
+padding: 2rem;
+  color: #4b0082;
+}  
 
 
 
