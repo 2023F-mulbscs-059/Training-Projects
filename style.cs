@@ -4,9 +4,7 @@ padding: 2rem;
 padding: 2rem;
   color: #4b0082;
 }  
-padding: 2rem;
-  color: #4b0082;
-}  
+
 
 .intro {
   display: flex;
