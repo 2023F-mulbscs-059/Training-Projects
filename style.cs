@@ -2,8 +2,7 @@ padding: 2rem;
   color: #4b0082;
 }  
 
-hu
-ggg
+
 .intro {
   display: flex;
   justify-content: space-between;
