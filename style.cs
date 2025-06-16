@@ -2,7 +2,7 @@ padding: 2rem;
   color: #4b0082;
 }  
 
-
+hu
 
 .intro {
   display: flex;
